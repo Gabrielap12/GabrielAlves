@@ -366,7 +366,7 @@ body{
     line-height: 15px;
   }
 
-  /*Responsible ------------------------------------------------------------------------------------------------------------------------- */
+/*Responsible ------------------------------------------------------------------------------------------------------------------------- */
   @media (max-width: 991px) {
     .container-modal-equipe {
         padding: 60px;
@@ -375,7 +375,7 @@ body{
       }
       .box-modal.equipe {
         overflow: auto;
-        padding: 0px;
+        padding: 0px; 
         width: 100%;
         height: 13%;
     }
@@ -383,24 +383,32 @@ body{
         width: 33.3333%;
       }
       #cabeçalho_direira img{
+          float: left;
+          width: 40%;
       }
       #cabeçalho{
-        height: 30%;
+        height: 100%;
         width: 100%;
       }
+      #cabeçalho_esqueda {
+        margin-top: 12%;
+        margin-left: 70px;
+        width: 45%;
+        float: left;
+    }
       #batata img{
           display: none;
       }
       #batata{
         width: 100%;
-        height: 33%;
+        height: 100;
         overflow: hidden;
     }
     .media-body a {
         margin-top: 10%;
     }
     #restante {
-        height: 33%;
+        height: 100;
     }
     .form-control {
         margin-left: -120px;
