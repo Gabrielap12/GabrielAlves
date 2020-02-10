@@ -430,6 +430,10 @@ body{
         text-align: center;
         font-size: 14px;
     }
+    .li-equipe {
+        position: relative;
+        width: 100%;
+        }
 }
 
 @media (max-width: 767px) {
