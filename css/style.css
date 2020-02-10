@@ -382,8 +382,14 @@ body{
       .li-equipe {
         width: 33.3333%;
       }
+      #cabeçalho_esqueda{
+        margin-top: 12%;
+        margin-left: 60px;
+        width: 45%;
+        float: left;
+    }
       #cabeçalho_direira img{
-	     display: none;
+        float: left;
       }
       #cabeçalho{
         height: 30%;
@@ -411,6 +417,15 @@ body{
     }
     .facebook{
         margin-left: 380px !important;
+    }
+    .conteudo_corpo{
+        color: #666666;
+        font-size: 14px;
+    }
+    .desc_what_i_do{
+        color: #666666;
+        text-align: center;
+        font-size: 14px;
     }
 }
 
